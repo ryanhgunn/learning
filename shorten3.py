@@ -5,7 +5,7 @@ short = ""
 count = 1
 letter = ""
 
-for i in range(0, int(len(original))):
+for i in range(0, len(original)):
 
     if letter != original[i]:
         letter = original[i]
@@ -29,7 +29,7 @@ if count != 1:
 # upon ending the for loop, add the last letter's counter to the end
 # if it is not 1.
 
-if int(len(short)) < int(len(original)):
+if len(short) < len(original):
     print(short)
 else:
     print(original)
