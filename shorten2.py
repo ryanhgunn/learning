@@ -1,13 +1,13 @@
 import sys
 
-orig = sys.argv[1]
+original = sys.argv[1]
 short = ""
 count = 1
 letter = ""
 
-for i in range(0, int(len(orig))):
-    if letter != orig[i]:
-        letter = orig[i]
+for i in range(0, int(len(original))):
+    if letter != original[i]:
+        letter = original[i]
         if count != 1:
             short += str(count)
         short += letter
@@ -18,7 +18,7 @@ for i in range(0, int(len(orig))):
 if count != 1:
     short += str(count)
 
-if int(len(short)) < int(len(orig)):
+if int(len(short)) < int(len(original)):
     print(short)
 else:
-    print(orig)
+    print(original)
