@@ -18,4 +18,7 @@ for i in range(0, int(len(orig))):
 if count != 1:
 	short += str(count)
 
-print(short)
+if int(len(short)) < int(len(orig):
+	print(short)
+else:
+	print(orig)
