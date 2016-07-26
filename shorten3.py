@@ -1,3 +1,6 @@
+# takes in a string of characters (ex. aaaabbcddd) and returns a
+# shortened version (would become a4b2cd3).
+
 import sys
 
 original = sys.argv[1]
