@@ -10,7 +10,7 @@ for i in range(0, int(len(orig))):
 		letter = orig[i]
 		if count != 1:
 			short += str(count)
-		short += orig[i]
+		short += letter
 		count = 1
 	else:
 		count += 1
